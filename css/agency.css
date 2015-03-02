@@ -37,14 +37,19 @@ a.active {
 }
 
 a {
-    color: #573446;
+    color: #1BAFCE;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #1693AC;
+    text-decoration: none;
+
 }
 
 h1,
@@ -54,7 +59,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -86,7 +91,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #573446;
 }
 
 .btn-primary:active,
@@ -193,7 +198,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #573446;
 }
 
 .navbar-default .navbar-collapse {
@@ -216,27 +221,28 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     letter-spacing: 1px;
     color: #fff;
+    
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #1BAFCE;
+    color: #B788A1; /* hover*/
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #573446;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #fec503;
+    color: #1BAFCE;
+    background-color: #573446;
 }
 
 @media(min-width:768px) {
@@ -337,7 +343,7 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     font-size: 40px;
     color: #573446;
 }
@@ -348,7 +354,7 @@ section h3.section-subheading {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.5;
 }
 
@@ -359,11 +365,22 @@ section h3.section-subheading {
 }
 
 #sobre {
-    background-color: #1BAFCE;
+    background: #222  url(img/skulls.png) repeat 0 0;
 }
 
-#sobre .text-muted{
+#sobre span.light {
+    font-weight: 700;
+    
+}
+
+#sobre h2.section-heading {
+     font-weight: 300;
     color: #fff;
+}
+
+#sobre .text-muted {
+    color: #9A9A9A;
+    line-height: 1.8;
 }
 
 #sobre .col-md-6 p {
@@ -372,7 +389,7 @@ section h3.section-subheading {
 }
 
 #about {
-    background-color: #573446;
+    background-color: #D2CCBE;
 }
 
 .service-heading {
@@ -402,7 +419,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    background: rgba(27,175,206,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -438,6 +455,7 @@ section h3.section-subheading {
     max-width: 400px;
     text-align: center;
     background-color: #fff;
+    color: #573446;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -448,7 +466,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-style: italic;
 }
 
@@ -907,6 +925,39 @@ body {
     webkit-tap-highlight-color: #573446;
 }
 
-.fa-inverse {
+#sobre .fa-inverse {
 color: #1BAFCE;
+font-size: 100px;
+}
+
+#sobre h4 {
+    color: #1BAFCE;
+}
+
+.sexy_line{ 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(#000));
+}
+
+hr.stylish {
+    border: 0;
+    height: 1px;
+    display: block;
+    margin-bottom: 80px;
+    background-image: -webkit-linear-gradient(left, rgba(80,80,80,0), rgba(80,80,80,0.75), rgba(80,80,80,0));
+    background-image:    -moz-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(15,15,15,0));
+    background-image:     -ms-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(15,15,15,0));
+    background-image:      -o-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(15,15,15,0));
+}
+
+.hr-margin {
+    margin-top: 80px;
+}
+
+.underline {
+text-decoration: underline;
 }
