@@ -365,7 +365,7 @@ section h3.section-subheading {
 }
 
 #sobre {
-    background: #222  url(img/skulls.png) repeat 0 0;
+    background: #222 url("http://moshcode.github.io/mosh.in/img/skulls.png") repeat 0 0;
 }
 
 #sobre span.light {
