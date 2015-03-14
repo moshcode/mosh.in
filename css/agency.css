@@ -15,6 +15,10 @@ body {
     color: #777;
 }
 
+.timeline-body .text-muted {
+    color: #fff;
+}
+
 .text-primary {
     color: #573446;
 }
@@ -368,13 +372,11 @@ section h3.section-subheading {
     background: #222 url("http://moshcode.github.io/mosh.in/img/tweed.png") repeat 0 0;
 }
 
-#sobre span.light {
-    font-weight: 700;
-    
+span.light {
+    font-weight: 300;
 }
 
 #sobre h2.section-heading {
-     font-weight: 300;
     color: #fff;
 }
 
@@ -388,18 +390,28 @@ section h3.section-subheading {
     margin-bottom: 40px;
 }
 
-#about {
-    background-color: #D2CCBE;
+#metodologia {
+    background-color: #1BAFCE;
+    background: #1BAFCE url("img/bg-metodologia.png") repeat 0 0;
+    
 }
 
-.service-heading {
-    margin: 15px 0;
-    text-transform: none;
-    color: #573446; 
+#metodologia h2 {
+color: #fff;  
+}
+
+#metodologia h3 {
+color: #fff;  
+}
+
+
+
+.services p.text-muted {
+    font-size: 14px;
 }
 
 #portfolio {
-    background-color: #DAD5C9;
+    background-color: #EFEDE7;
 }
 
 #portfolio .portfolio-item {
@@ -542,12 +554,19 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #fff;
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #573446;
+    background-color: #fff;
 }
+
+.timeline>li .timeline-image i {
+    margin-top: 32px;
+    font-size: 92px;
+    color: #189DB9;
+}
+
 
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
@@ -559,6 +578,7 @@ section h3.section-subheading {
     float: right;
     padding: 0 20px 0 100px;
     text-align: left;
+    margin-top: 30px;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
@@ -581,7 +601,7 @@ section h3.section-subheading {
 
 .timeline .timeline-heading h4 {
     margin-top: 0;
-    color: inherit;
+    color: #fff;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -608,6 +628,7 @@ section h3.section-subheading {
         width: 41%;
         padding: 0 20px 20px 30px;
         text-align: right;
+        margin-top: 30px;
     }
 
     .timeline>li .timeline-image {
@@ -635,7 +656,7 @@ section h3.section-subheading {
 
 
 #sobre .sobre{
-    padding: 0 150px;
+    
 }
     .timeline>li {
         min-height: 150px;
@@ -710,68 +731,68 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+section#contato {
+    background-color: #EFEDE7;
+    background-image: url(../img/bg-contato.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
-    color: #fff;
+section#contato .section-heading {
+    color: #573446;
 }
 
-section#contact .form-group {
+section#contato .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#contato .form-group input,
+section#contato .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#contato .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#contato .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contact .form-control:focus {
+section#contato .form-control:focus {
     border-color: #573446;
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#contato::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#contato:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#contato::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#contato:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#contato .text-danger {
     color: #e74c3c;
 }
 
@@ -926,12 +947,25 @@ body {
 }
 
 #sobre .fa-inverse {
-color: #1BAFCE;
-font-size: 100px;
+color: #fff;
+font-size: 74px;
+}
+
+#sobre .intro {
+border-left:0px solid #333;
+padding-left: 30px;
+}
+
+#sobre .text {
+background-color: #666 ;
 }
 
 #sobre h4 {
-    color: #1BAFCE;
+    color: #fff;
+    font-weight: 500;
+    margin: 15px 0;
+    text-transform: none;
+    font-size: 14px;    
 }
 
 .sexy_line{ 
