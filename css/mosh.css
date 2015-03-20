@@ -746,11 +746,18 @@ border-bottom-right-radius: 10px;
 }
 
 aside.partners img {
-    margin: 50px auto;
+    margin: 30px auto 50px auto;
 }
 
 aside.partners {
     background: #1BAFCE url("../img/bg-partners.png") fixed center center;
+}
+
+aside.partners p {
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 1.5;
 }
 
 section#contact {
