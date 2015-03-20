@@ -358,6 +358,7 @@ section h3.section-subheading {
     line-height: 1.5;
 }
 
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
@@ -720,7 +721,7 @@ border-bottom-right-radius: 10px;
 }
 
 #team {
-    background: #E6E3DA url("../img/bg.png") repeat 0 -530px;
+    background: #efede7 url("../img/bg-team.png") no-repeat center center ;
 }
 
 .team-member {
@@ -744,8 +745,12 @@ border-bottom-right-radius: 10px;
     margin-top: 0;
 }
 
-aside.clients img {
+aside.partners img {
     margin: 50px auto;
+}
+
+aside.partners {
+    background: #1BAFCE url("../img/bg-partners.png") fixed center center;
 }
 
 section#contact {
