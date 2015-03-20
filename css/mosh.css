@@ -750,7 +750,7 @@ aside.partners img {
 }
 
 aside.partners {
-    background: #1BAFCE url("../img/bg-partners.png") fixed center center;
+    background: #1BAFCE url("../img/bg-partners.png") no-repeat fixed center 100px;
 }
 
 aside.partners p {
